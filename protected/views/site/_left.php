@@ -8,7 +8,7 @@
             <td align="left" style="color: #57b856; font-weight: bold;">Xổ Số Miền Nam</td>
             <td align="right" class="statusnam">
             <?php if(date("H",time())<=16){ ?>
-            <span style="color: #bf3e11;" class="glyphicon glyphicon-time"></span>
+            <img src="http://www.xoso.vn/img/clock.gif" width="16">
             <?php }else if(date("H",time())>=16 && date("H",time())<17){ ?>
             <img src="<?php echo Yii::app()->homeUrl ?>img/loading.gif" width="16" />
             <?php }else if(date("H",time())>=17){ ?>
@@ -20,7 +20,7 @@
             <td align="left" style="color: #00bff3; font-weight: bold;">Xổ Số Miền Bắc</td>
             <td align="right" class="statusbac">
             <?php if(date("H",time())<=16){ ?>
-            <span style="color: #bf3e11;" class="glyphicon glyphicon-time"></span>
+            <img src="http://www.xoso.vn/img/clock.gif" width="16">
             <?php }else if(date("H",time())>=16 && date("H",time())<17){ ?>
             <img src="<?php echo Yii::app()->homeUrl ?>img/loading.gif" width="16" />
             <?php }else if(date("H",time())>=17){ ?>
@@ -32,7 +32,7 @@
             <td align="left" style="color: #f1ad43; font-weight: bold;">Xổ Số Miền Trung</td>
             <td align="right" class="statustrung">
             <?php if(date("H",time())<=16 && date("i",time()) <= 10){ ?>
-            <span style="color: #bf3e11;" class="glyphicon glyphicon-time"></span>
+            <img src="http://www.xoso.vn/img/clock.gif" width="16">
             <?php }else if(date("H",time())>=16 && date("H",time())<17){ ?>
             <img src="<?php echo Yii::app()->homeUrl ?>img/loading.gif" width="16" />
             <?php }else if(date("H",time())>=17){ ?>
@@ -43,7 +43,7 @@
     </table>
     <table class="table" style="font-size: 10px;">
         <tr>
-            <td><span style="color: #bf3e11;" class="glyphicon glyphicon-time"></span> Chờ</td>
+            <td><img src="http://www.xoso.vn/img/clock.gif" width="16"> Chờ</td>
             <td><img src="<?php echo Yii::app()->homeUrl ?>img/loading.gif" width="16" /> Đang xổ</td>
             <td><span style="color: #bf3e11;" class="glyphicon glyphicon-ok"></span> Mới</td>
         </tr>
@@ -91,7 +91,7 @@
                         <td align="left"><img src="<?php echo Yii::app()->homeUrl ?>img/arrow_1.gif" /> Kết quả <?php echo $tinh->tinh; ?> </td>
                         <td align="right" class="tinh<?php echo $itemnam; ?>">
                             <?php if(date("H",time())<=16 && date("i",time()) <= 10){ ?>
-                            <span style="color: #bf3e11;" class="glyphicon glyphicon-time"></span>
+                            <img src="http://www.xoso.vn/img/clock.gif" width="16">
                             <?php }else if(date("H",time())>=16 && date("H",time())<17){ ?>
                             <img src="<?php echo Yii::app()->homeUrl ?>img/loading.gif" width="16" />
                             <?php }else if(date("H",time())>=17){ ?>
@@ -113,7 +113,7 @@
     </table>
     <table class="table" style="font-size: 10px;">
         <tr>
-            <td><span style="color: #bf3e11;" class="glyphicon glyphicon-time"></span> Chờ</td>
+            <td><img src="http://www.xoso.vn/img/clock.gif" width="16"> Chờ</td>
             <td><img src="<?php echo Yii::app()->homeUrl ?>img/loading.gif" width="16" /> Đang xổ</td>
             <td><span style="color: #bf3e11;" class="glyphicon glyphicon-ok"></span> Mới</td>
         </tr>
