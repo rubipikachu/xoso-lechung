@@ -1,0 +1,230 @@
+body{ font-family: arial !important; background: url("../img/background.png") repeat;}
+
+.loginhome ul li{display: inline; list-style: none;}
+.input-prepend .add-on {
+    display: inline-block;
+    width: auto;
+    height: 26px;
+    min-width: 16px;
+    padding: 4px 5px;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 15px;
+    text-align: center;
+    background-color: #eee;
+    border: 1px solid #ccc;
+    border-right:0;
+}
+hr {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: 0;
+    border-top: 1px solid #eeeeee;
+}
+.container .jumbotron {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 37px;
+    padding-bottom: 37px;
+    margin-bottom:5px;
+}
+.visible-sm .jumbotron {
+    padding:10px;
+    margin-bottom:5px;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+    color: #ffffff;
+    background-color: #b60101;
+}
+.panel-heading{font-weight: bold;}
+.panel{ margin-bottom: 10px !important;}
+.maincontent{ background-color: #f4f4f4; padding: 0 !important;}
+.panel-xs>.panel-heading {
+    color: #fff;
+    background-color: #bdbdbd;
+    border-color: #bdbdbd;
+}
+.col-xs-12 tr{ height: 27px;}
+.table{margin-bottom: 0 !important;}
+
+.btn-nam,.btn-nam:hover, .btn-nam:focus, .btn-nam:active, .btn-nam.active, .open>.dropdown-toggle.btn-nam {
+    color: #ffffff;
+    background-color: #57b856;
+    border-color: #57b856;
+}
+.btn-bac,.btn-bac:hover, .btn-bac:focus, .btn-bac:active, .btn-bac.active, .open>.dropdown-toggle.btn-bac {
+    color: #ffffff;
+    background-color: #00bff3;
+    border-color: #00bff3;
+}
+.btn-trung,.btn-trung:hover, .btn-trung:focus, .btn-trung:active, .btn-trung.active, .open>.dropdown-toggle.btn-trung {
+    color: #ffffff;
+    background-color: #f1ad43;
+    border-color: #f1ad43;
+}
+.black{background-color: white;}
+.black a{color: black;}
+.nam, .nam a{color: #57b856;}
+.bac, .bac a{color: #00bff3;}
+.trung, .trung a{color: #f1ad43;}
+
+.kq .table>thead>tr>th, .kq .table>tbody>tr>th, .kq .table>tfoot>tr>th, .kq .table>thead>tr>td, .kq .table>tbody>tr>td, .kq .table>tfoot>tr>td{
+    padding: 0 !important;
+}
+
+.giai8 {
+height: 36px;
+font-size: 13px !important;
+}
+.giai7 {
+height: 25px;
+font-size: 13px !important;
+background-color: #ffeeee !important;
+}
+
+.giai6 {
+height: 72px !important;
+font-size: 13px !important;
+padding: 0;
+}
+.giai5 {
+height: 25px !important;
+font-size: 13px !important;
+background-color: #ffeeee !important;
+}
+.giai4 {
+height: 154px !important;
+font-size: 13px !important;
+}
+
+.giai3 {
+height: 53px !important;
+font-size: 13px !important;
+background-color: #ffeeee !important;
+}
+
+.giai2 {
+height: 25px !important;
+font-size: 13px !important;
+}
+
+.giai1 {
+height: 25px !important;
+font-size: 13px !important;
+background-color: #ffeeee !important;
+}
+
+.giaidb {
+height: 34px !important;
+font-size: 13px !important;
+}
+
+.giai8, .giai7, .giai6, .giai5, .giai4, .giai3, .giai2, .giai1, .giaidb,
+.giai8 div, .giai7 div, .giai6 div, .giai5 div, .giai4 div, .giai3 div, .giai2 div, .giai1 div, .giaidb div{
+    font-size: 13px !important;
+    text-align: center !important;
+    vertical-align: middle !important;
+    font-weight: bold;
+}
+
+.inputsearch{ width:106px !important; }
+@media (min-width: 768px) { 
+    .inputsearch{ width:140px !important; }
+}
+@media (min-width: 992px) and (max-width: 1200px){
+    .inputsearch{ width:106px !important; }
+}
+.bool{float: left !important; text-align: center;margin: 0 5px;}
+
+.finnish0{background: url("../img/icon/glass-balls-40px_b.png") no-repeat; width: 40px; height: 40px;color: #fff;font-size: 18px;font-weight: bold;padding-top: 7px;}
+.finnish1{background: url("../img/icon/glass-balls-40px_b.png") no-repeat 0 -43px; width: 40px; height: 40px;color: #fff;font-size: 18px;font-weight: bold;padding-top: 7px;}
+.finnish2{background: url("../img/icon/glass-balls-40px_b.png") no-repeat 0 -86px; width: 40px; height: 40px;color: #fff;font-size: 18px;font-weight: bold;padding-top: 7px;}
+.finnish3{background: url("../img/icon/glass-balls-40px_b.png") no-repeat 0 -129px; width: 40px; height: 40px;color: #fff;font-size: 18px;font-weight: bold;padding-top: 7px;}
+.finnish4{background: url("../img/icon/glass-balls-40px_b.png") no-repeat 0 -172px; width: 40px; height: 40px;color: #fff;font-size: 18px;font-weight: bold;padding-top: 7px;}
+.finnish5{background: url("../img/icon/glass-balls-40px_b.png") no-repeat 0 -216px; width: 40px; height: 40px;color: #fff;font-size: 18px;font-weight: bold;padding-top: 7px;}
+.finnish6{background: url("../img/icon/glass-balls-40px_b.png") no-repeat 0 -259px; width: 40px; height: 40px;color: #fff;font-size: 18px;font-weight: bold;padding-top: 7px;}
+.finnish7{background: url("../img/icon/glass-balls-40px_b.png") no-repeat 0 -302px; width: 40px; height: 40px;color: #fff;font-size: 18px;font-weight: bold;padding-top: 7px;}
+.finnish8{background: url("../img/icon/glass-balls-40px_b.png") no-repeat 0 -345px; width: 40px; height: 40px;color: #fff;font-size: 18px;font-weight: bold;padding-top: 7px;}
+.finnish9{background: url("../img/icon/glass-balls-40px_b.png") no-repeat 0 -388px; width: 40px; height: 40px;color: #fff;font-size: 18px;font-weight: bold;padding-top: 7px;}
+
+header,footer{color: #fff !important;}
+header input,footer input{color: #000 !important;}
+
+.bkqtinhmienbac .giai2 div {
+width: 49%;
+display: inline-block;
+float: left;
+font-size: 16px;
+font-weight: bold;
+line-height: 130%;
+}
+.bkqtinhmienbac .giai3 div {
+display: inline-block;
+float: left;
+font-size: 16px;
+font-weight: bold;
+height: 16px;
+line-height: 16px;
+margin: 4px 0 2px;
+vertical-align: bottom;
+width: 33%;
+}
+.bkqtinhmienbac .giai4 {
+height: 60px !important;
+font-size: 13px !important;
+}
+.bkqtinhmienbac .giai4 div {
+width: 49%;
+display: inline-block;
+float: left;
+font-size: 16px;
+font-weight: bold;
+height: 16px;
+line-height: 16px;
+margin: 4px 0 2px;
+vertical-align: bottom;
+}
+.bkqtinhmienbac .giai5 div {
+display: inline-block;
+float: left;
+font-size: 16px;
+font-weight: bold;
+height: 16px;
+line-height: 16px;
+margin: 4px 0 2px;
+vertical-align: bottom;
+width: 33%;
+}
+.bkqtinhmienbac .giai6 div {
+width: 33%;
+display: inline-block;
+float: left;
+font-size: 16px;
+font-weight: bold;
+line-height: 130%;
+}
+.bkqtinhmienbac .giai7 div {
+width: 24%;
+display: inline-block;
+float: left;
+font-size: 18px;
+font-weight: bold;
+color: #800000;
+font-weight: bold;
+line-height: 130%;
+}
+.bkqtinhmienbac .phathanh {
+display: block;
+float: right;
+position: static;
+margin-right: 10px;
+font-style: normal;
+font-weight: bold;
+}
+.bkqtinhmienbac .tngay {
+display: block;
+float: left;
+position: static;
+margin-left: 10px;
+}
+.font13 td{ font-size: 13px !important;}
